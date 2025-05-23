@@ -16,7 +16,7 @@ namespace utils
     }
 
     namespace math {
-        int add(int a, int b);
+        
     }
     
 } // namespace utils

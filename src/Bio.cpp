@@ -538,30 +538,7 @@ namespace Bio {
             */
         };
         // some function called format_alignment    
-    } // namespace pairwise2
+    }
     
    
 }
-
-namespace someThing
-{
-    namespace anotherThing
-    {
-
-        namespace someOtherThing
-        {
-
-            struct someType {
-                // contains someFuckingThing
-            };
-
-            someType function(const std::string& input) {
-                std::cout << input << std::endl;
-                someType someShit;
-                return someShit;
-            }
-
-            // someThing::anotherThing::someOtherThing::function(input)
-        } 
-    }   
-} 
